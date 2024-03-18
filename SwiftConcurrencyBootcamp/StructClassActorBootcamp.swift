@@ -51,7 +51,7 @@ import SwiftUI
  
  Structs: Data Models, Views
  Classes: View Models
- Actors: 
+ Actors: Shared 'Manager' and 'Data Stores'
  
  */
 
@@ -93,6 +93,8 @@ class MyClass {
     }
 }
 
+
+
 // class may run into situations where two threads accessing the instance at the same time, and it will crash your app
 // actor is basically the same as class, with one major difference: actor is thread-safe
 // when actor run into the awkward situation as mentioned, actor will wait in order
@@ -108,12 +110,46 @@ actor MyActor {
     }
 }
 
+actor StructClassActorBootcampDataManager {
+    func getDataFromDatabase() {
+        
+    }
+}
+
+class StructClassActorBootcampViewModel: ObservableObject {
+    @Published var title = ""
+    init() {
+        print("ViewModel initializing...")
+    }
+}
+
 // MARK: View
 struct StructClassActorBootcamp: View {
+    @StateObject private var viewModel = StructClassActorBootcampViewModel() // @state and @stateobject prevent recreating view model
+    let isActive: Bool // when changing the isActive, the whole view is recreated
+    
+    init(isActive: Bool) {
+        self.isActive = isActive
+        print("View initializing...")
+    }
+    
     var body: some View {
         Text("Hello, World!")
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .ignoresSafeArea()
+            .background(isActive ? Color.red : Color.blue)
             .onAppear {
-                runTest()
+                //runTest()
+            }
+    }
+}
+
+struct StructClassActorBootcampHomeView: View {
+    @State private var isActive: Bool = false
+    var body: some View {
+        StructClassActorBootcamp(isActive: isActive)
+            .onTapGesture {
+                isActive.toggle()
             }
     }
 }
