@@ -12,6 +12,7 @@
 		333F0D4B2BA82CD80070F45E /* SendableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F0D4A2BA82CD80070F45E /* SendableBootcamp.swift */; };
 		333F0D4D2BA836DC0070F45E /* AsyncPublisherBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F0D4C2BA836DC0070F45E /* AsyncPublisherBootcamp.swift */; };
 		333F0D4F2BA83F980070F45E /* StrongSelfBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F0D4E2BA83F980070F45E /* StrongSelfBootcamp.swift */; };
+		333F0D512BA92C6A0070F45E /* MVVMBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F0D502BA92C6A0070F45E /* MVVMBootcamp.swift */; };
 		33627DBB2BA3EC7400589457 /* TaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33627DBA2BA3EC7400589457 /* TaskBootcamp.swift */; };
 		33627DBD2BA3F68B00589457 /* AsyncLetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33627DBC2BA3F68B00589457 /* AsyncLetBootcamp.swift */; };
 		33627DBF2BA4136E00589457 /* TaskGroupBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33627DBE2BA4136E00589457 /* TaskGroupBootcamp.swift */; };
@@ -32,6 +33,7 @@
 		333F0D4A2BA82CD80070F45E /* SendableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendableBootcamp.swift; sourceTree = "<group>"; };
 		333F0D4C2BA836DC0070F45E /* AsyncPublisherBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisherBootcamp.swift; sourceTree = "<group>"; };
 		333F0D4E2BA83F980070F45E /* StrongSelfBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongSelfBootcamp.swift; sourceTree = "<group>"; };
+		333F0D502BA92C6A0070F45E /* MVVMBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMBootcamp.swift; sourceTree = "<group>"; };
 		33627DBA2BA3EC7400589457 /* TaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootcamp.swift; sourceTree = "<group>"; };
 		33627DBC2BA3F68B00589457 /* AsyncLetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetBootcamp.swift; sourceTree = "<group>"; };
 		33627DBE2BA4136E00589457 /* TaskGroupBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskGroupBootcamp.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				333F0D4A2BA82CD80070F45E /* SendableBootcamp.swift */,
 				333F0D4C2BA836DC0070F45E /* AsyncPublisherBootcamp.swift */,
 				333F0D4E2BA83F980070F45E /* StrongSelfBootcamp.swift */,
+				333F0D502BA92C6A0070F45E /* MVVMBootcamp.swift */,
 				9632C4332BA2C2D6006ACA28 /* Assets.xcassets */,
 				9632C4352BA2C2D6006ACA28 /* Preview Content */,
 			);
@@ -184,6 +187,7 @@
 				33627DC12BA41EF900589457 /* CheckedContinuationBootcamp.swift in Sources */,
 				33627DBB2BA3EC7400589457 /* TaskBootcamp.swift in Sources */,
 				9632C4422BA2EDEB006ACA28 /* AsyncAwaitBootcamp.swift in Sources */,
+				333F0D512BA92C6A0070F45E /* MVVMBootcamp.swift in Sources */,
 				333F0D492BA80D0B0070F45E /* GlobalActorBootcamp.swift in Sources */,
 				33627DC32BA43F6F00589457 /* StructClassActorBootcamp.swift in Sources */,
 				333F0D4F2BA83F980070F45E /* StrongSelfBootcamp.swift in Sources */,
